@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/introducao-jre-jdk/introducao-jre-jdk.iml" filepath="$PROJECT_DIR$/introducao-jre-jdk/introducao-jre-jdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introducao-orientacao-objetos/introducao-orientacao-objetos.iml" filepath="$PROJECT_DIR$/introducao-orientacao-objetos/introducao-orientacao-objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introducao-jdk-jre/introducaoJdkJre.iml" filepath="$PROJECT_DIR$/introducao-jdk-jre/introducaoJdkJre.iml" />
       <module fileurl="file://$PROJECT_DIR$/sintaxe-basica.iml" filepath="$PROJECT_DIR$/sintaxe-basica.iml" />
     </modules>
   </component>
