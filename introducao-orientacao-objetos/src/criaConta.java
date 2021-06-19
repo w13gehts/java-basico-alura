@@ -1,5 +1,3 @@
-package bytebank;
-
 public class criaConta {
     public static void main(String[] args) {
 
