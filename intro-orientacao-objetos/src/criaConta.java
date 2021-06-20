@@ -19,7 +19,7 @@ public class criaConta {
         //dados da primeira conta
         System.out.println("-------Primeira conta-------");
         System.out.println("Titular: " + primeiraConta.titular);
-        System.out.println("Agência: " +primeiraConta.agencia);
+        System.out.println("Agência: " + primeiraConta.agencia);
         System.out.println("Número: " + primeiraConta.numero);
         System.out.println("Saldo: " + primeiraConta.saldo + "\n");
 

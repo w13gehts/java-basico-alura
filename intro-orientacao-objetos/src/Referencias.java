@@ -33,6 +33,6 @@ public class Referencias {
 
         //duas referencias para um mesmo objeto
         System.out.println("Primeira conta: " + primeiraConta);
-        System.out.println("Segunda conta: " +segundaConta);
+        System.out.println("Segunda conta: " + segundaConta);
     }
 }
