@@ -1,24 +1,26 @@
 package exemploPolimorfismo;
 
-//exemploPolimorfismo.Gerente é um funcionário, herda da classe exemploPolimorfismo.Funcionario
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Autenticavel {
+//Gerente eh um funcionario, gerente herda da classe Funcionario, assina o contrato Autenticavel, é um Autenticavel
 
-    private int senha;
+    private AutenticacaoUtil autenticador;
 
-    public void setSenha(int senha) {
-        this.senha = senha;
+    public Gerente() {
+        this.autenticador = new AutenticacaoUtil();
     }
-
-    public boolean autentica (int senha) {
-            if (this.senha == senha) {
-                return true;
-            } else {
-                return false;
-            }
-        }
 
         public double getBonificacao() {
             System.out.println("Chamando o método de bonificação do gerente ");
             return super.getSalario();
         }
+
+    @Override
+    public void setSenha(int senha) {
+        this.autenticador.setSenha(senha);
+    }
+
+    @Override
+    public boolean autentica(int senha) {
+        return this.autenticador.autentica(senha);
+    }
 }

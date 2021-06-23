@@ -2,6 +2,7 @@ package exemploPolimorfismo;
 
 //nao pode instanciar dessa classe porque é abstrata
 public abstract class Funcionario {
+
     private String nome;
     private String cpf;
     protected double salario;
