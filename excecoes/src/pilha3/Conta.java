@@ -1,7 +1,8 @@
 package pilha3;
 
 public class Conta {
-    void deposita() {
+
+    void deposita() throws MyException {
 
     }
 }
