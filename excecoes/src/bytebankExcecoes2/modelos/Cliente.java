@@ -1,4 +1,11 @@
-package bytebankExcecoes2;
+package bytebankExcecoes2.modelos;
+
+/**
+ * Classe que representa um cliente no ByteBank
+ *
+ * @author Juliana Saláfia
+ * @version 0.1
+ */
 
 public class Cliente {
 

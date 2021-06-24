@@ -1,4 +1,8 @@
-package bytebankExcecoes2;
+package bytebankExcecoes2.testes;
+
+import bytebankExcecoes2.modelos.Conta;
+import bytebankExcecoes2.modelos.ContaCorrente;
+import bytebankExcecoes2.modelos.SaldoInsuficienteException;
 
 public class TesteSaca {
     public static void main(String[] args) {

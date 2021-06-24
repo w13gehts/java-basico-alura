@@ -1,4 +1,4 @@
-package bytebankExcecoes2;
+package bytebankExcecoes2.modelos;
 
 public class SeguroDeVida implements Tributavel {
 

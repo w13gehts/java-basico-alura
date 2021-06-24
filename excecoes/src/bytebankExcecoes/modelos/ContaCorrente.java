@@ -1,4 +1,4 @@
-package bytebankExcecoes;
+package bytebankExcecoes.modelos;
 
 public class ContaCorrente extends Conta implements Tributavel {
     public ContaCorrente(int agencia, int numero) {

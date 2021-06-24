@@ -1,4 +1,8 @@
-package bytebankExcecoes;
+package bytebankExcecoes.testes;
+
+import bytebankExcecoes.modelos.CalculadorDeImposto;
+import bytebankExcecoes.modelos.ContaCorrente;
+import bytebankExcecoes.modelos.SeguroDeVida;
 
 public class TesteTributaveis {
     public static void main(String[] args) {

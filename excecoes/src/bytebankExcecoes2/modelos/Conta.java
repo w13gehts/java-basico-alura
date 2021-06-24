@@ -1,4 +1,11 @@
-package bytebankExcecoes2;
+package bytebankExcecoes2.modelos;
+
+/**
+ * Classe que representa uma Conta no ByteBank
+ *
+ * @author Juliana Saláfia
+ * @version 0.1
+ */
 
 public abstract class Conta {
 
@@ -19,6 +26,12 @@ public abstract class Conta {
         }
 
         public abstract void deposita(double valor);
+
+        /**
+         * Valor precisa ser menor ou igual ao saldo
+         * @param valor
+         * @throws SaldoInsuficienteException
+         */
 
         public void saca(double valor) throws SaldoInsuficienteException {
                 if (this.saldo < valor) {

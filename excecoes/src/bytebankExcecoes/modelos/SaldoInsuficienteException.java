@@ -1,4 +1,4 @@
-package bytebankExcecoes;
+package bytebankExcecoes.modelos;
 
 public class SaldoInsuficienteException extends RuntimeException {
     public SaldoInsuficienteException(String msg) {

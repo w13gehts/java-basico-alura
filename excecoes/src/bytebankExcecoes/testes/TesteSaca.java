@@ -1,4 +1,7 @@
-package bytebankExcecoes;
+package bytebankExcecoes.testes;
+
+import bytebankExcecoes.modelos.Conta;
+import bytebankExcecoes.modelos.ContaCorrente;
 
 public class TesteSaca {
     public static void main(String[] args) {

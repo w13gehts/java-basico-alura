@@ -1,4 +1,4 @@
-package bytebankExcecoes;
+package bytebankExcecoes.modelos;
 
 public interface Tributavel {
 

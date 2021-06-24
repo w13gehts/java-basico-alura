@@ -1,4 +1,4 @@
-package bytebankExcecoes2;
+package bytebankExcecoes2.modelos;
 
 public class ContaPoupanca extends Conta {
     public ContaPoupanca(int agencia, int numero) {
